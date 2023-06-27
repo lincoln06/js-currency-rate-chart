@@ -8,13 +8,14 @@ document.querySelector('#app').innerHTML = `
      </canvas>
      <form id="options-form">
      <label for="reference-currency">Reference currency</label>
-        <select name="reference-currency" id="reference-currency"></select>
+        <select name="reference-currency" id="reference-currency">
+            <option value="" disabled selected>Select...</option>
+        </select>
         <div id="currencies">
         </div>
         <button id="show-button">Show</button>
      </form>
   </main>
-  
 `
 
 initChart();
