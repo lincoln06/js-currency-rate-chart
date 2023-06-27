@@ -1,0 +1,21 @@
+main {
+  display: flex;
+  flex-direction: row;
+  #chart {
+    width: 800px;
+    height: 600px;
+  }
+  #options-form {
+    width: 200px;
+    flex-direction: column;
+    align-items: flex-start;
+    #reference-currency {
+      width: 100px;
+    }
+    #currencies {
+      height: 500px;
+      justify-content: left;
+      overflow-y: scroll;
+    }
+  }
+}
