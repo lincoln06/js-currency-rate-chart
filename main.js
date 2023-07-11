@@ -23,6 +23,9 @@ document.querySelector('#app').innerHTML = `
         <button id="show-button" disabled>Show</button>
      </form>
   </main>
+  <footer>
+    <p>currency-rate-chart | Author: Maciej Janta-Lipiński INF II NS</p>
+  </footer>
 `
 
 initChart();
