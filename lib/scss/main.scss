@@ -4,18 +4,31 @@ main {
   #chart {
     width: 800px;
     height: 600px;
+    max-width: 800px;
   }
   #options-form {
     width: 200px;
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    #reference-currency {
-      width: 100px;
+    align-items: start;
+    select {
+      width: 100%;
     }
     #currencies {
-      height: 200px;
-      justify-content: left;
+      width: 100%;
+      height: 250px;
       overflow-y: scroll;
+      justify-content: flex-start;
+      label {
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        line-height: 1.1em;
+        height: 1.1em;
+      }
+    }
+    *:not(button):not(label) {
+      padding: 5px 0 5px 0;
     }
   }
 }
