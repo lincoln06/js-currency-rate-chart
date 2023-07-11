@@ -1,6 +1,6 @@
 # currency-rate-chart
 
-## Prerequisities
+## Prerequisites
 1. Node.js
 2. 
 ## Installation
