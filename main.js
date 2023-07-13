@@ -15,7 +15,8 @@ document.querySelector('#app').innerHTML = `
         <select name="timespan" id="timespan">
             <option value="5">Last week</option>
             <option value="12">Last 14 days</option>
-            <option value="${new Date(new Date().getFullYear(), new Date().getMonth() + 1, 0).getDate() - 2}">Last 30 days</option>
+            <option value="28">Last 30 days</option>
+            <option value="363">Last year</option>
         </select>
         <label for="currencies">Currencies to show</label>
         <div id="currencies">
